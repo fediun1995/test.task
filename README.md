@@ -1,6 +1,6 @@
 1. As database we use (database.sqlite) file which is located in the database directory of the project.
 2. copy .env.example to .env
-3. run (composer install)
+3. run (composer install) command in terminal to install all dependencies.
 2. In order to run the project just call in terminal (php artisan serve) and open the browser with the address returned in terminal.
 3. We have 1 endpoint which is (POST /api/submit) and it takes 3 parameters in body (name, email, message).
 Validation rules are described in \App\Http\Requests\SubmitRequest.php file.
